@@ -1,52 +1,22 @@
 .main {
-    width: calc(100% - 400px) ;
-    background:  #F2EDD7FF ;
-
-    padding: 30px;
-
-}
-
-.sidebar {
-    width: 400px;
-    background: #755139FF;
+    width: calc(100% - 450px) ;
 }
 
 
 
-.portofolio {
-    background: #755139FF;
-    padding: 14px 25px;
-    text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-}
-
-.portofolio a {
-    color: #F2EDD7FF ;
-
-}
-
-
-
-.img-rounded {
-    border-radius: 50%;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
-
-.ul-content-align-horizontal {
-    display: flex;
-}
-
-.ul-content-align-horizontal li {
+.un-list-style li {
     margin: 0 50px;
 
+}
+
+.m-t-b-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.m-l-r-50 {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
