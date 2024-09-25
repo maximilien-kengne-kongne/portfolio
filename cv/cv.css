@@ -7,3 +7,92 @@
     order: 1;
 
 }
+
+.modern-grey-bg {
+    background: #3B373B;
+}
+
+.simple-grey {
+    color: #CAD4DF;
+}
+
+.main article h1::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 1500px;
+    background: #000;
+}
+
+.sidebar article h1::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 200px;
+    background: #000;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main ul {
+    list-style-type: square;
+}
+
+/*@counter-style circled {
+    system: cyclic;
+    symbols: "▪️";
+    suffix: " ";
+}
+
+.patnuc {
+    list-style: circled;
+}*/
+
+/*.skills li::before {
+    content: ".";
+    text-align: center;
+    height: 5px;
+    width: 5px;
+    background: grey;
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+}*/
+
+
+/*@counter-style circled {
+    system: cyclic;
+    symbols: "->";
+    suffix: " ";
+}
+
+.skills {
+    list-style: circled;
+}*/
+
+
+/*
+@counter-style circled-point {
+    system: cyclic;
+    symbols: ".";
+    suffix: " ";
+}
+✨🔓🩸🧱💣📀💾🍄⭐☀️⚡🔥💧❤️⭕🔴⚫🟤⚪🟢▪️▫️◽🔸🔻🔺🔹
+.circle {
+    list-style: circled-point;
+}
+
+
+@counter-style thumbs {
+    system: cyclic;
+    symbols: "\1F44D";
+    suffix: " ";
+}
+
+ul {
+    list-style: thumbs;
+}*/
